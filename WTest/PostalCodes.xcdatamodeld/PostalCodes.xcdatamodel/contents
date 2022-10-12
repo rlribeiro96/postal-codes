@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F2081" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PostalCode" representedClassName="PostalCode" syncable="YES" codeGenerationType="class">
+        <attribute name="postal_code_info" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="PostalCode" positionX="-45" positionY="0" width="128" height="44"/>
+    </elements>
+</model>

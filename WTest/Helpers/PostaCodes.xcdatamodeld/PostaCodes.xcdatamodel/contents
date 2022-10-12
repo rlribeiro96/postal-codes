@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21F2081" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="PostalCode" representedClassName="PostalCode" syncable="YES" codeGenerationType="class">
+        <attribute name="desig_postal" optional="YES" attributeType="String"/>
+        <attribute name="ext_cod_postal" optional="YES" attributeType="String"/>
+        <attribute name="num_cod_postal" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="PostalCode" positionX="-63" positionY="-18" width="128" height="74"/>
+    </elements>
+</model>
