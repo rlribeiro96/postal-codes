@@ -14,10 +14,10 @@ Some tests were made using CoreData multithreading architecture, as managing a b
 
 The ViewFactory class was used to facilitate managing all objects.
 
-The project uses the MVVM architecture. Maybe using SwiftUI instead of ViewCode would be a way better solution, but again, the lack of time and knowledge prevented to do so.
+The project uses the MVVM architecture. Maybe using SwiftUI instead of ViewCode would be a way better solution, but again, the lack of time and knowledge prevented me to do so.
 
-One last topic to be mentioned is the query to search for postal codes using, where the terms typed onto the UISearchBar were used to create a NSPredicate to search for the data inside CoreData database:
+One last topic to be mentioned is the query to search for postal codes, where the terms typed onto the UISearchBar were used to create a NSPredicate to search for data inside CoreData database:
 
 ```let predicate: NSPredicate = NSPredicate(format: "postal_code_info CONTAINS[cd] %@", searchTerm)```
 
-Unfortunately the "postal_code_info CONTAINS[cd] %@" query is not satisfatory, as although it can used to search incomplete, case-insensitive results, it is terrible for out-of-order, full tests search. 
+Unfortunately the "CONTAINS[cd]" query is not satisfatory, although it can used to search incomplete, case-insensitive results, it is terrible for out-of-order, full tests search. 
