@@ -1,4 +1,4 @@
-# postalcodes - Search For Postal Codes
+# postalcodes - Search For Postal Codes Information
 
 iOS Application using AlamoFire to make requests, CoreData to store a huge CSV file full of postal codes and SnapKit for better constraint managing of the View code.
 
